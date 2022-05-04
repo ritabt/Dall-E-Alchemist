@@ -6,11 +6,13 @@ This repo contains our code for generating images using Dall-E mini for our game
 ## Dependencies
 It is recommended to create a virtual environment with the following packages:
 ```
+pip install --upgrade pip
 pip install -q git+https://github.com/huggingface/transformers.git
 pip install -q git+https://github.com/patil-suraj/vqgan-jax.git
 pip install -q git+https://github.com/borisdayma/dalle-mini.git
+pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_releases.html
 ```
-
+Note: See [here](https://github.com/google/jax#installation) for GPU Jax installation
 ## References
 This [notebook](https://colab.research.google.com/github/borisdayma/dalle-mini/blob/main/tools/inference/inference_pipeline.ipynb#scrollTo=uzjAM2GBYpZX) was used as a reference from this code. This [repo](https://github.com/borisdayma/dalle-mini) is the official Dall-E Mini repo.
 
