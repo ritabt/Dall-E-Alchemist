@@ -4,6 +4,7 @@
 This repo contains our code for generating images using Dall-E mini for our game "The Dall-E Alchemist".
 
 ## Dependencies
+Python >= 3.7
 It is recommended to create a virtual environment with the following packages:
 ```
 pip install --upgrade pip
