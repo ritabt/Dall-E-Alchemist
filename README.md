@@ -6,6 +6,8 @@ This repo contains our code for generating images using Dall-E mini for our game
 ## Dependencies
 This program only works on Linux with Python >= 3.7
 
+Memory required >= 5GB
+
 It is recommended to create a virtual environment with the following packages:
 ```
 pip install --upgrade pip
