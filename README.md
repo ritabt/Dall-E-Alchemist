@@ -12,7 +12,7 @@ pip install --upgrade pip
 pip install -q git+https://github.com/huggingface/transformers.git
 pip install -q git+https://github.com/patil-suraj/vqgan-jax.git
 pip install -q git+https://github.com/borisdayma/dalle-mini.git
-pip install --upgrade "jax[cuda]" -f https://storage.googleapis.com/jax-releases/jax_releases.html
+pip install jaxlib
 ```
 Note: See [here](https://github.com/google/jax#installation) for GPU Jax installation
 ## References
