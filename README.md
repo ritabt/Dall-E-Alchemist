@@ -16,6 +16,7 @@ pip install -q git+https://github.com/patil-suraj/vqgan-jax.git
 pip install -q git+https://github.com/borisdayma/dalle-mini.git
 pip install jaxlib
 pip install notebook
+pip install ipywidgets
 ```
 Note: See [here](https://github.com/google/jax#installation) for GPU Jax installation
 ## References
